@@ -14,8 +14,7 @@ body {
 .container {
   width: 50%;
   margin: 1em auto;
-  margin-bottom: 2em;
-  min-height: 101vh;
+  min-height: 100vh;
 }
 
 .container:hover .fa-plus {
