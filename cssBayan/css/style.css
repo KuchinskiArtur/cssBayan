@@ -60,8 +60,9 @@ h3 {
     opacity: 1;
 }
 
-.container:active .btn__closed {
+.check:checked ~ .title .btn__closed{
   transform: rotate(40deg);
+  opacity: 1;
 }
 
 .meme:hover {
