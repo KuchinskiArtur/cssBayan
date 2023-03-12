@@ -36,7 +36,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
-  border-top: 1px solid black;
+  border-top: 0.1rem solid black;
 }
 
 h3 {
@@ -52,7 +52,7 @@ h3 {
 }
 
 .btn__closed {
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 700;
     opacity: 0;
 }
@@ -101,11 +101,9 @@ input:checked ~ .title .fa-plus {
   height: 0;
   opacity: 0;
   transition: all 1s;
-  /* border: 1px solid #3b8b45; */
 }
 
 .img__block {
-  border: 1px solid blue;
   width: 35%;
   margin: 0 auto;
 }
@@ -116,19 +114,19 @@ img {
 
 @media (max-width: 850px) {
     h3 {
-        font-size: 12px;
+        font-size: 1rem;
     }
     .btn__closed {
-        font-size: 12px;
+        font-size: 1rem;
     }
 }
 
 
 @media (max-width: 650px) {
     h3 {
-        font-size: 8px;
+        font-size: 0.4rem;
     }
     .btn__closed {
-        font-size: 8px;
+        font-size: 0.4rem;
     }
 }
