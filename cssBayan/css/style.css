@@ -68,6 +68,10 @@ h3 {
   cursor: pointer;
 }
 
+.meme:active {
+  cursor: no-drop;
+}
+
 .meme:hover .fa-plus {
   transform: rotate(45deg);
 }
