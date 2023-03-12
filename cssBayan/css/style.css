@@ -60,6 +60,10 @@ h3 {
     opacity: 1;
 }
 
+.container:active .btn__closed {
+  transform: rotate(40deg);
+}
+
 .meme:hover {
   cursor: pointer;
 }
